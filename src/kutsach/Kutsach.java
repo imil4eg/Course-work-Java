@@ -209,7 +209,7 @@ class Figures extends Frame implements Observer,ActionListener,ItemListener,Comp
 
 class Figure extends Observable implements Runnable{
     Thread thread;
-    private boolean xplus;
+    private boolean xplus; //delta
     private boolean yplus;
     int x,dx;
     int y,dy;
